@@ -1,0 +1,94 @@
+<svg width="675" height="260" viewBox="0 0 675 260" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif; background: #ffffff;">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+        </marker>
+        <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#1d4ed8"/>
+        </marker>
+    </defs>
+    <rect x="8" y="8" width="160" height="244" rx="5" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="4,2"/>
+    <text x="88" y="23" font-size="9" font-weight="bold" fill="#334155" text-anchor="middle">Existing Caseware Systems</text>
+    <rect x="18" y="34" width="140" height="44" rx="4" fill="#e2e8f0" stroke="#64748b"/>
+    <text x="88" y="53" font-size="8.5" font-weight="bold" fill="#0f172a" text-anchor="middle">Product Template DB</text>
+    <text x="88" y="66" font-size="7.5" fill="#475569" text-anchor="middle">(Shared Global ZIP/JSON)</text>
+    <rect x="18" y="96" width="140" height="46" rx="4" fill="#e2e8f0" stroke="#64748b"/>
+    <text x="88" y="114" font-size="8.5" font-weight="bold" fill="#0f172a" text-anchor="middle">Deterministic JSON</text>
+    <text x="88" y="126" font-size="8.5" font-weight="bold" fill="#0f172a" text-anchor="middle">Diff Engine</text>
+    <rect x="18" y="188" width="140" height="52" rx="4" fill="#e2e8f0" stroke="#64748b"/>
+    <text x="88" y="206" font-size="8.5" font-weight="bold" fill="#0f172a" text-anchor="middle">Engagement Mgmt Sys</text>
+    <text x="88" y="218" font-size="7.5" fill="#b91c1c" text-anchor="middle">(~1 min file load constraint)</text>
+    <text x="88" y="230" font-size="7.5" fill="#475569" text-anchor="middle">Create / Apply / Decline</text>
+    <rect x="184" y="8" width="122" height="170" rx="5" fill="#fffbeb" stroke="#f59e0b" stroke-dasharray="4,2"/>
+    <text x="245" y="23" font-size="9" font-weight="bold" fill="#92400e" text-anchor="middle">Event Bus (SNS/SQS)</text>
+    <rect x="194" y="34" width="102" height="38" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="245" y="51" font-size="8" font-weight="bold" fill="#78350f" text-anchor="middle">TemplatePublished</text>
+    <text x="245" y="62" font-size="7.5" fill="#92400e" text-anchor="middle">Event Hook</text>
+    <rect x="194" y="82" width="102" height="42" rx="4" fill="#fef3c7" stroke="#d97706"/>
+    <text x="245" y="98" font-size="8" font-weight="bold" fill="#78350f" text-anchor="middle">Engagement Lifecycle</text>
+    <text x="245" y="109" font-size="7" fill="#92400e" text-anchor="middle">Created/Applied/Declined</text>
+    <rect x="194" y="134" width="102" height="36" rx="4" fill="#fde68a" stroke="#b45309"/>
+    <text x="245" y="150" font-size="8" font-weight="bold" fill="#78350f" text-anchor="middle">Diff &amp; Summary</text>
+    <text x="245" y="161" font-size="7.5" fill="#92400e" text-anchor="middle">Job Queue (SQS)</text>
+    <rect x="184" y="190" width="122" height="50" rx="4" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+    <text x="245" y="211" font-size="8.5" font-weight="bold" fill="#065f46" text-anchor="middle">Practitioner UI</text>
+    <text x="245" y="224" font-size="7.5" fill="#047857" text-anchor="middle">Dashboard (~100s files)</text>
+    <rect x="324" y="8" width="218" height="244" rx="5" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="433" y="23" font-size="9" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Update &amp; Summary Service (Spring Boot)</text>
+    <rect x="336" y="34" width="92" height="42" rx="4" fill="#ffffff" stroke="#2563eb"/>
+    <text x="382" y="52" font-size="8" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Event Ingestion</text>
+    <text x="382" y="63" font-size="7.5" fill="#475569" text-anchor="middle">Consumer</text>
+    <rect x="336" y="92" width="92" height="46" rx="4" fill="#ffffff" stroke="#2563eb"/>
+    <text x="382" y="109" font-size="8" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Diff &amp; Summary</text>
+    <text x="382" y="120" font-size="8" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Orchestrator</text>
+    <text x="382" y="131" font-size="7" fill="#475569" text-anchor="middle">(v_from -&gt; v_latest)</text>
+    <rect x="440" y="92" width="90" height="46" rx="4" fill="#ffffff" stroke="#2563eb"/>
+    <text x="485" y="109" font-size="8" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Deterministic</text>
+    <text x="485" y="120" font-size="8" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Citation Validator</text>
+    <text x="485" y="131" font-size="7" fill="#475569" text-anchor="middle">(100% path check)</text>
+    <rect x="440" y="34" width="90" height="46" rx="4" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="485" y="51" font-size="8" font-weight="bold" fill="#1e3a8a" text-anchor="middle">PostgreSQL</text>
+    <text x="485" y="62" font-size="7.2" fill="#1e40af" text-anchor="middle">Read Model &amp;</text>
+    <text x="485" y="72" font-size="7.2" fill="#1e40af" text-anchor="middle">Summary Cache</text>
+    <rect x="336" y="188" width="194" height="52" rx="4" fill="#ffffff" stroke="#2563eb"/>
+    <text x="433" y="206" font-size="8.5" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Update Read &amp; Decision API</text>
+    <text x="433" y="218" font-size="7.5" fill="#475569" text-anchor="middle">GET /updates (&lt;50ms indexed join)</text>
+    <text x="433" y="230" font-size="7.5" fill="#475569" text-anchor="middle">POST /decision (sets APPLY_IN_PROGRESS)</text>
+    <rect x="556" y="70" width="110" height="86" rx="5" fill="#f5f3ff" stroke="#8b5cf6" stroke-dasharray="4,2"/>
+    <text x="611" y="86" font-size="8.5" font-weight="bold" fill="#5b21b6" text-anchor="middle">AI Layer (Bedrock)</text>
+    <rect x="564" y="96" width="94" height="48" rx="4" fill="#ede9fe" stroke="#7c3aed"/>
+    <text x="611" y="114" font-size="8" font-weight="bold" fill="#4c1d95" text-anchor="middle">LLM Summarizer</text>
+    <text x="611" y="126" font-size="7" fill="#5b21b6" text-anchor="middle">Structured JSON +</text>
+    <text x="611" y="136" font-size="7" fill="#5b21b6" text-anchor="middle">Section Citations</text>
+    <line x1="158" y1="53" x2="192" y2="53" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <line x1="88" y1="96" x2="88" y2="80" stroke="#64748b" stroke-width="1" stroke-dasharray="2,2" marker-end="url(#arrow)"/>
+    <line x1="158" y1="198" x2="174" y2="198" stroke="#475569" stroke-width="1.2"/>
+    <line x1="174" y1="198" x2="174" y2="103" stroke="#475569" stroke-width="1.2"/>
+    <line x1="174" y1="103" x2="192" y2="103" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <line x1="296" y1="53" x2="334" y2="53" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <line x1="296" y1="98" x2="316" y2="98" stroke="#475569" stroke-width="1.2"/>
+    <line x1="316" y1="98" x2="316" y2="63" stroke="#475569" stroke-width="1.2"/>
+    <line x1="316" y1="63" x2="334" y2="63" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <line x1="428" y1="53" x2="438" y2="53" stroke="#1d4ed8" stroke-width="1.2" marker-end="url(#arrow-blue)"/>
+    <line x1="360" y1="76" x2="360" y2="84" stroke="#475569" stroke-width="1.1"/>
+    <line x1="360" y1="84" x2="245" y2="84" stroke="#475569" stroke-width="1.1"/>
+    <line x1="245" y1="124" x2="245" y2="132" stroke="#475569" stroke-width="1.1" marker-end="url(#arrow)"/>
+    <line x1="296" y1="152" x2="355" y2="152" stroke="#475569" stroke-width="1.2"/>
+    <line x1="355" y1="152" x2="355" y2="140" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <line x1="336" y1="122" x2="160" y2="122" stroke="#1d4ed8" stroke-width="1.2" marker-end="url(#arrow-blue)"/>
+    <text x="255" y="131" font-size="6.8" fill="#1e3a8a" text-anchor="middle">Direct Net Diff</text>
+    <line x1="382" y1="138" x2="382" y2="164" stroke="#475569" stroke-width="1.1"/>
+    <line x1="382" y1="164" x2="611" y2="164" stroke="#475569" stroke-width="1.1"/>
+    <line x1="611" y1="164" x2="611" y2="146" stroke="#475569" stroke-width="1.1" marker-end="url(#arrow)"/>
+    <line x1="564" y1="115" x2="532" y2="115" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <line x1="485" y1="92" x2="485" y2="82" stroke="#1d4ed8" stroke-width="1.2" marker-end="url(#arrow-blue)"/>
+    <line x1="306" y1="210" x2="334" y2="210" stroke="#059669" stroke-width="1.3" marker-end="url(#arrow)"/>
+    <line x1="485" y1="188" x2="485" y2="146" stroke="#1d4ed8" stroke-width="1.1"/>
+    <line x1="534" y1="60" x2="544" y2="60" stroke="#1d4ed8" stroke-width="1.1"/>
+    <line x1="544" y1="60" x2="544" y2="205" stroke="#1d4ed8" stroke-width="1.1"/>
+    <line x1="544" y1="205" x2="532" y2="205" stroke="#1d4ed8" stroke-width="1.1" marker-end="url(#arrow-blue)"/>
+    <line x1="336" y1="228" x2="314" y2="228" stroke="#475569" stroke-width="1.1"/>
+    <line x1="314" y1="228" x2="314" y2="246" stroke="#475569" stroke-width="1.1"/>
+    <line x1="314" y1="246" x2="88" y2="246" stroke="#475569" stroke-width="1.1"/>
+    <line x1="88" y1="246" x2="88" y2="241" stroke="#475569" stroke-width="1.1" marker-end="url(#arrow)"/>
+</svg>
